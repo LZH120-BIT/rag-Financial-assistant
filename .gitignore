@@ -1,0 +1,71 @@
+# ===== 敏感信息（绝对不能上传）=====
+.env
+.env.*
+*.env
+**/.env
+!.env.example
+!**/.env.example
+
+# ===== 依赖目录 =====
+node_modules/
+**/node_modules/
+
+# ===== 编译产物 =====
+dist/
+**/dist/
+build/
+**/build/
+dist-ssr/
+
+# ===== 用户上传的文件 =====
+uploads/
+**/uploads/
+!**/uploads/.gitkeep
+
+# ===== 数据集与大文件（不纳入版本管理）=====
+golden_set/
+*.zip
+*.pdf
+*.docx
+*.xlsx
+
+# ===== 归档与临时目录 =====
+_archive_medical/
+测试文档/
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== 测试覆盖率 =====
+coverage/
+.nyc_output/
+
+# ===== 操作系统文件 =====
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ===== 编辑器/IDE =====
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+# 本地服务数据（如果误放进项目）
+local-services/
+
+# ===== 本地运行服务的残留文件（Redis/Milvus）=====
+dump.rdb
+*.rdb
+embedEtcd.yaml
+user.yaml
+volumes/
+standalone_embed.sh

@@ -1,0 +1,1623 @@
+[
+  {
+    "tag": "SIMPLE",
+    "file": "30f64d1043f4cb425eb636763580ae27094ffef1.pdf",
+    "total_pages": 100,
+    "sample_pages": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95
+    ],
+    "rotation": {
+      "total_pages": 100,
+      "rotation_distribution": {
+        "0": 100
+      },
+      "landscape_pages": 0
+    },
+    "tables": {
+      "sample_pages_probed": 20,
+      "total_tables_found": 12,
+      "shape_stats": {
+        "rows_median": 5.5,
+        "cols_median": 9.0,
+        "rows_max": 26,
+        "cols_max": 33
+      },
+      "header_row_examples": [
+        [
+          "Medford, OR",
+          "Office, plant and warehouse",
+          "Manufacturing, distribution an",
+          "1,103,000",
+          "owned"
+        ],
+        [
+          "Josephine County, OR",
+          "Land",
+          "Fallow land",
+          "41 (acres)",
+          "owned"
+        ],
+        [
+          "Marketing and sales",
+          "",
+          "$",
+          "571,661",
+          "",
+          "",
+          "",
+          "7.2",
+          "%",
+          "",
+          "$",
+          "533,268",
+          "",
+          "",
+          "",
+          "46.8",
+          "%",
+          "",
+          "$",
+          "363,227",
+          ""
+        ],
+        [
+          "Technology and development",
+          "",
+          "$",
+          "56,561",
+          "",
+          "",
+          "",
+          "3.9",
+          "%",
+          "",
+          "$",
+          "54,428",
+          "",
+          "",
+          "",
+          "11.8",
+          "%",
+          "",
+          "$",
+          "48,698",
+          ""
+        ],
+        [
+          "Net revenues",
+          "",
+          "$",
+          "2,207,885",
+          "",
+          "",
+          "$",
+          "2,122,245",
+          "",
+          "",
+          "$",
+          "1,489,637",
+          ""
+        ],
+        [
+          "Current assets",
+          "",
+          "$",
+          "1,029",
+          ""
+        ],
+        [
+          "Intangible assets with",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Land",
+          "",
+          "$",
+          "33,862",
+          "",
+          "",
+          "$",
+          "30,284",
+          ""
+        ]
+      ],
+      "cell_none_ratio_avg": 0.512,
+      "multi_header_suspected_tables": 1,
+      "merged_cell_suspected_tables": 11,
+      "sample_page_stats": [
+        {
+          "page": 0,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 5,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 10,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 15,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 20,
+          "tables_on_page": 0,
+          "shapes": []
+        }
+      ]
+    },
+    "columns": {
+      "sample_pages_probed": 20,
+      "single_col_pages": 16,
+      "dual_col_pages": 0,
+      "complex_pages": 3,
+      "page_reports": [
+        {
+          "page": 5,
+          "layout": "single",
+          "n_blocks": 1,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 10,
+          "layout": "single",
+          "n_blocks": 1,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 15,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 20,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 25,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 30,
+          "layout": "complex",
+          "n_blocks": 16,
+          "left_ratio": 0.06,
+          "right_ratio": 0.44,
+          "middle_ratio": 0.5
+        },
+        {
+          "page": 35,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 40,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 45,
+          "layout": "single",
+          "n_blocks": 4,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 50,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        }
+      ]
+    },
+    "dict_struct": {
+      "sample_pages_probed": 5,
+      "font_size_top5": [
+        [
+          10.0,
+          187
+        ],
+        [
+          12.0,
+          4
+        ],
+        [
+          11.0,
+          1
+        ]
+      ],
+      "font_name_top5": [
+        [
+          "TimesNewRomanPSMT",
+          166
+        ],
+        [
+          "TimesNewRomanPS-BoldMT",
+          12
+        ],
+        [
+          "TimesNewRomanPS-ItalicMT",
+          7
+        ],
+        [
+          "TimesNewRomanPS-BoldItal",
+          4
+        ],
+        [
+          "TimesNewRoman",
+          3
+        ]
+      ],
+      "bold_line_ratio": 0.087,
+      "distinct_font_sizes": 3
+    },
+    "header_footer": {
+      "sample_pages_probed": 20,
+      "top_headers": [],
+      "top_footers": [
+        [
+          "6",
+          1
+        ],
+        [
+          "11",
+          1
+        ],
+        [
+          "16",
+          1
+        ],
+        [
+          "21",
+          1
+        ],
+        [
+          "26",
+          1
+        ]
+      ]
+    },
+    "elapsed_sec": 6.64,
+    "company": "1-800-Flowers"
+  },
+  {
+    "tag": "MULTIPAGE_TAB",
+    "file": "ded965ce7e3ea0ad9b83272b8c36f529793a2887.pdf",
+    "total_pages": 232,
+    "sample_pages": [
+      0,
+      11,
+      23,
+      34,
+      46,
+      58,
+      69,
+      81,
+      92,
+      104,
+      116,
+      127,
+      139,
+      150,
+      162,
+      174,
+      185,
+      197,
+      208,
+      220
+    ],
+    "rotation": {
+      "total_pages": 232,
+      "rotation_distribution": {
+        "0": 232
+      },
+      "landscape_pages": 0
+    },
+    "tables": {
+      "sample_pages_probed": 20,
+      "total_tables_found": 22,
+      "shape_stats": {
+        "rows_median": 1.0,
+        "cols_median": 3.0,
+        "rows_max": 5,
+        "cols_max": 5
+      },
+      "header_row_examples": [
+        [
+          "Region\nMul\n• Americas\norg\n• Eu",
+          "Product\ntiple\n• Live Casino\nan"
+        ],
+        [
+          "Technology ...and\n• Innovation",
+          "the Business model\nns to • Str"
+        ],
+        [
+          "Strategic Report",
+          "",
+          ""
+        ],
+        [
+          "Strategic Report",
+          "",
+          ""
+        ],
+        [
+          "Strategic Report",
+          "",
+          ""
+        ],
+        [
+          "Strategic Report",
+          "",
+          ""
+        ],
+        [
+          "Strategy",
+          "a) Describe the Playtech has i"
+        ],
+        [
+          "Strategic Report",
+          "",
+          ""
+        ]
+      ],
+      "cell_none_ratio_avg": 0.515,
+      "multi_header_suspected_tables": 0,
+      "merged_cell_suspected_tables": 17,
+      "sample_page_stats": [
+        {
+          "page": 0,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 11,
+          "tables_on_page": 2,
+          "shapes": [
+            {
+              "rows": 1,
+              "cols": 2
+            },
+            {
+              "rows": 1,
+              "cols": 2
+            }
+          ]
+        },
+        {
+          "page": 23,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 1,
+              "cols": 3
+            }
+          ]
+        },
+        {
+          "page": 34,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 46,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 1,
+              "cols": 3
+            }
+          ]
+        }
+      ]
+    },
+    "columns": {
+      "sample_pages_probed": 20,
+      "single_col_pages": 4,
+      "dual_col_pages": 8,
+      "complex_pages": 8,
+      "page_reports": [
+        {
+          "page": 0,
+          "layout": "complex",
+          "n_blocks": 1,
+          "left_ratio": 1.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 11,
+          "layout": "dual",
+          "n_blocks": 22,
+          "left_ratio": 0.55,
+          "right_ratio": 0.32,
+          "middle_ratio": 0.14
+        },
+        {
+          "page": 23,
+          "layout": "dual",
+          "n_blocks": 15,
+          "left_ratio": 0.67,
+          "right_ratio": 0.33,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 34,
+          "layout": "dual",
+          "n_blocks": 18,
+          "left_ratio": 0.5,
+          "right_ratio": 0.5,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 46,
+          "layout": "dual",
+          "n_blocks": 43,
+          "left_ratio": 0.47,
+          "right_ratio": 0.53,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 58,
+          "layout": "complex",
+          "n_blocks": 23,
+          "left_ratio": 0.57,
+          "right_ratio": 0.26,
+          "middle_ratio": 0.17
+        },
+        {
+          "page": 69,
+          "layout": "single",
+          "n_blocks": 27,
+          "left_ratio": 0.33,
+          "right_ratio": 0.15,
+          "middle_ratio": 0.52
+        },
+        {
+          "page": 81,
+          "layout": "complex",
+          "n_blocks": 29,
+          "left_ratio": 0.79,
+          "right_ratio": 0.21,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 92,
+          "layout": "dual",
+          "n_blocks": 30,
+          "left_ratio": 0.57,
+          "right_ratio": 0.43,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 104,
+          "layout": "dual",
+          "n_blocks": 33,
+          "left_ratio": 0.39,
+          "right_ratio": 0.52,
+          "middle_ratio": 0.09
+        }
+      ]
+    },
+    "dict_struct": {
+      "sample_pages_probed": 5,
+      "font_size_top5": [
+        [
+          8.5,
+          196
+        ],
+        [
+          12.0,
+          14
+        ],
+        [
+          7.0,
+          12
+        ],
+        [
+          6.5,
+          12
+        ],
+        [
+          10.0,
+          11
+        ]
+      ],
+      "font_name_top5": [
+        [
+          "NHaasGroteskDSStd-45Lt",
+          168
+        ],
+        [
+          "NHaasGroteskDSStd-75Bd",
+          36
+        ],
+        [
+          "NHaasGroteskDSStd-55Rg",
+          28
+        ],
+        [
+          "Cairo-Bold",
+          22
+        ],
+        [
+          "Cairo-Light",
+          12
+        ]
+      ],
+      "bold_line_ratio": 0.22,
+      "distinct_font_sizes": 10
+    },
+    "header_footer": {
+      "sample_pages_probed": 20,
+      "top_headers": [
+        [
+          "Strategic Report",
+          8
+        ],
+        [
+          "Financial Statements",
+          8
+        ],
+        [
+          "Remuneration Report",
+          2
+        ],
+        [
+          "Playtech plc Annual Report and Financial Statements 2022",
+          1
+        ],
+        [
+          "Governance Report",
+          1
+        ]
+      ],
+      "top_footers": [
+        [
+          "Playtech plc Annual Report and Financial Statements 2022\n10",
+          1
+        ],
+        [
+          "22\nPlaytech plc Annual Report and Financial Statements 2022",
+          1
+        ],
+        [
+          "33\nPlaytech plc Annual Report and Financial Statements 2022",
+          1
+        ],
+        [
+          "45\nPlaytech plc Annual Report and Financial Statements 2022",
+          1
+        ],
+        [
+          "57\nPlaytech plc Annual Report and Financial Statements 2022",
+          1
+        ]
+      ]
+    },
+    "elapsed_sec": 6.18,
+    "company": "Playtech plc"
+  },
+  {
+    "tag": "MULTI_COLUMN",
+    "file": "696ddc4c80febe0f1559ed3b1272487c74ca91cc.pdf",
+    "total_pages": 324,
+    "sample_pages": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      81,
+      97,
+      113,
+      129,
+      145,
+      162,
+      178,
+      194,
+      210,
+      226,
+      243,
+      259,
+      275,
+      291,
+      307
+    ],
+    "rotation": {
+      "total_pages": 324,
+      "rotation_distribution": {
+        "0": 324
+      },
+      "landscape_pages": 0
+    },
+    "tables": {
+      "sample_pages_probed": 20,
+      "total_tables_found": 12,
+      "shape_stats": {
+        "rows_median": 9.0,
+        "cols_median": 4.0,
+        "rows_max": 198,
+        "cols_max": 7
+      },
+      "header_row_examples": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "Classification 🗸 = objective",
+          "Monika",
+          "Stefan",
+          "Kerstin",
+          "Alexandra",
+          "Stefan"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "2022",
+          "",
+          ""
+        ],
+        [
+          "",
+          "31.12.20221",
+          "",
+          "",
+          "31.12.2021",
+          "",
+          ""
+        ],
+        [
+          "€m",
+          "2022",
+          "2021",
+          "Change in %"
+        ],
+        [
+          "€m",
+          "31.12.2022",
+          "31.12.20211",
+          "Change in %"
+        ],
+        [
+          "Financial assets | €m",
+          "Financial assets",
+          "Financial assets –",
+          "Financial assets –",
+          "Non-current assets",
+          "Total"
+        ]
+      ],
+      "cell_none_ratio_avg": 0.573,
+      "multi_header_suspected_tables": 2,
+      "merged_cell_suspected_tables": 11,
+      "sample_page_stats": [
+        {
+          "page": 0,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 16,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 198,
+              "cols": 2
+            }
+          ]
+        },
+        {
+          "page": 32,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 56,
+              "cols": 7
+            }
+          ]
+        },
+        {
+          "page": 48,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 7,
+              "cols": 5
+            }
+          ]
+        },
+        {
+          "page": 64,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 9,
+              "cols": 4
+            }
+          ]
+        }
+      ]
+    },
+    "columns": {
+      "sample_pages_probed": 20,
+      "single_col_pages": 6,
+      "dual_col_pages": 12,
+      "complex_pages": 2,
+      "page_reports": [
+        {
+          "page": 0,
+          "layout": "single",
+          "n_blocks": 2,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 16,
+          "layout": "complex",
+          "n_blocks": 42,
+          "left_ratio": 0.98,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.02
+        },
+        {
+          "page": 32,
+          "layout": "single",
+          "n_blocks": 54,
+          "left_ratio": 0.22,
+          "right_ratio": 0.2,
+          "middle_ratio": 0.57
+        },
+        {
+          "page": 48,
+          "layout": "dual",
+          "n_blocks": 75,
+          "left_ratio": 0.39,
+          "right_ratio": 0.52,
+          "middle_ratio": 0.09
+        },
+        {
+          "page": 64,
+          "layout": "dual",
+          "n_blocks": 90,
+          "left_ratio": 0.49,
+          "right_ratio": 0.49,
+          "middle_ratio": 0.02
+        },
+        {
+          "page": 81,
+          "layout": "dual",
+          "n_blocks": 54,
+          "left_ratio": 0.52,
+          "right_ratio": 0.44,
+          "middle_ratio": 0.04
+        },
+        {
+          "page": 97,
+          "layout": "dual",
+          "n_blocks": 87,
+          "left_ratio": 0.53,
+          "right_ratio": 0.47,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 113,
+          "layout": "dual",
+          "n_blocks": 85,
+          "left_ratio": 0.53,
+          "right_ratio": 0.45,
+          "middle_ratio": 0.02
+        },
+        {
+          "page": 129,
+          "layout": "dual",
+          "n_blocks": 80,
+          "left_ratio": 0.35,
+          "right_ratio": 0.4,
+          "middle_ratio": 0.25
+        },
+        {
+          "page": 145,
+          "layout": "dual",
+          "n_blocks": 95,
+          "left_ratio": 0.49,
+          "right_ratio": 0.51,
+          "middle_ratio": 0.0
+        }
+      ]
+    },
+    "dict_struct": {
+      "sample_pages_probed": 5,
+      "font_size_top5": [
+        [
+          8.0,
+          240
+        ],
+        [
+          7.5,
+          236
+        ],
+        [
+          7.0,
+          83
+        ],
+        [
+          6.0,
+          61
+        ],
+        [
+          9.0,
+          58
+        ]
+      ],
+      "font_name_top5": [
+        [
+          "CommerzbankCompatilFact-",
+          405
+        ],
+        [
+          "CommerzbankCompatilText-",
+          246
+        ],
+        [
+          "SegoeUISymbol",
+          40
+        ],
+        [
+          "Gotham-Bold",
+          3
+        ],
+        [
+          "Symbol",
+          3
+        ]
+      ],
+      "bold_line_ratio": 0.201,
+      "distinct_font_sizes": 12
+    },
+    "header_footer": {
+      "sample_pages_probed": 20,
+      "top_headers": [
+        [
+          "To our Shareholders \nCorporate Responsibility \nManagement Report \nRisk Report \nFinancial Statements \nFurther Information \n15",
+          1
+        ],
+        [
+          "To our Shareholders \nCorporate Responsibility \nManagement Report \nRisk Report \nFinancial Statements \nFurther Information \n31",
+          1
+        ],
+        [
+          "To our Shareholders \nCorporate Responsibility \nManagement Report \nRisk Report \nFinancial Statements \nFurther Information \n47",
+          1
+        ],
+        [
+          "To our Shareholders \nCorporate Responsibility \nManagement Report \nRisk Report \nFinancial Statements \nFurther Information \n63",
+          1
+        ],
+        [
+          "80 \nCommerzbank Annual Report 2022",
+          1
+        ]
+      ],
+      "top_footers": [
+        [
+          "from 2025 at the latest (see “Reducing financed emissions”).",
+          1
+        ],
+        [
+          "fundamental appreciation of the importance of fairness, respect of",
+          1
+        ],
+        [
+          "MOLSCHORA Vermietungsgesellschaft mbH \nDüsseldorf, Germany \n100.0 \n–",
+          1
+        ]
+      ]
+    },
+    "elapsed_sec": 4.75,
+    "company": "MC-heavy"
+  },
+  {
+    "tag": "IMAGE_HEAVY",
+    "file": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "total_pages": 143,
+    "sample_pages": [
+      0,
+      7,
+      14,
+      21,
+      28,
+      35,
+      42,
+      50,
+      57,
+      64,
+      71,
+      78,
+      85,
+      92,
+      100,
+      107,
+      114,
+      121,
+      128,
+      135
+    ],
+    "rotation": {
+      "total_pages": 143,
+      "rotation_distribution": {
+        "0": 143
+      },
+      "landscape_pages": 1
+    },
+    "tables": {
+      "sample_pages_probed": 20,
+      "total_tables_found": 61,
+      "shape_stats": {
+        "rows_median": 1.0,
+        "cols_median": 10.0,
+        "rows_max": 47,
+        "cols_max": 21
+      },
+      "header_row_examples": [
+        [
+          "We believe that the proposed a",
+          ""
+        ],
+        [
+          "We may experience difficulties",
+          "",
+          ""
+        ],
+        [
+          "Service revenue:",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Fees",
+          "",
+          "",
+          "",
+          "366,079",
+          "",
+          "",
+          "293,408",
+          "",
+          "",
+          "291,775",
+          "",
+          "25",
+          "%",
+          "1",
+          "%"
+        ],
+        [
+          "Inventory sales revenue",
+          "",
+          "",
+          "",
+          "683,225",
+          "",
+          "",
+          "499,212",
+          "",
+          "",
+          "505,664",
+          "",
+          "37",
+          "%",
+          "(1)",
+          "%"
+        ],
+        [
+          "Committed",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Revolving credit facilities",
+          "",
+          "",
+          "750,000",
+          "",
+          "",
+          "750,000",
+          "",
+          "—",
+          "%"
+        ],
+        [
+          "Revolving credit facilities",
+          "",
+          "",
+          "10,000",
+          "",
+          "",
+          "10,000",
+          "",
+          "—",
+          "%"
+        ]
+      ],
+      "cell_none_ratio_avg": 0.509,
+      "multi_header_suspected_tables": 0,
+      "merged_cell_suspected_tables": 24,
+      "sample_page_stats": [
+        {
+          "page": 0,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 7,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 9,
+              "cols": 2
+            }
+          ]
+        },
+        {
+          "page": 14,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 21,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 47,
+              "cols": 3
+            }
+          ]
+        },
+        {
+          "page": 28,
+          "tables_on_page": 0,
+          "shapes": []
+        }
+      ]
+    },
+    "columns": {
+      "sample_pages_probed": 20,
+      "single_col_pages": 18,
+      "dual_col_pages": 0,
+      "complex_pages": 2,
+      "page_reports": [
+        {
+          "page": 0,
+          "layout": "single",
+          "n_blocks": 29,
+          "left_ratio": 0.14,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.86
+        },
+        {
+          "page": 7,
+          "layout": "single",
+          "n_blocks": 12,
+          "left_ratio": 0.25,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.75
+        },
+        {
+          "page": 14,
+          "layout": "single",
+          "n_blocks": 11,
+          "left_ratio": 0.09,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.91
+        },
+        {
+          "page": 21,
+          "layout": "single",
+          "n_blocks": 9,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 28,
+          "layout": "single",
+          "n_blocks": 9,
+          "left_ratio": 0.0,
+          "right_ratio": 0.0,
+          "middle_ratio": 1.0
+        },
+        {
+          "page": 35,
+          "layout": "single",
+          "n_blocks": 16,
+          "left_ratio": 0.38,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.62
+        },
+        {
+          "page": 42,
+          "layout": "single",
+          "n_blocks": 15,
+          "left_ratio": 0.33,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.67
+        },
+        {
+          "page": 50,
+          "layout": "single",
+          "n_blocks": 6,
+          "left_ratio": 0.17,
+          "right_ratio": 0.17,
+          "middle_ratio": 0.67
+        },
+        {
+          "page": 57,
+          "layout": "single",
+          "n_blocks": 14,
+          "left_ratio": 0.21,
+          "right_ratio": 0.0,
+          "middle_ratio": 0.79
+        },
+        {
+          "page": 64,
+          "layout": "single",
+          "n_blocks": 8,
+          "left_ratio": 0.0,
+          "right_ratio": 0.12,
+          "middle_ratio": 0.88
+        }
+      ]
+    },
+    "dict_struct": {
+      "sample_pages_probed": 5,
+      "font_size_top5": [
+        [
+          10.0,
+          187
+        ],
+        [
+          9.0,
+          87
+        ],
+        [
+          13.0,
+          1
+        ]
+      ],
+      "font_name_top5": [
+        [
+          "TimesNewRoman",
+          215
+        ],
+        [
+          "TimesNewRoman,Bold",
+          23
+        ],
+        [
+          "SegoeUISymbolOOEnc",
+          21
+        ],
+        [
+          "TimesNewRoman,BoldItalic",
+          16
+        ]
+      ],
+      "bold_line_ratio": 0.157,
+      "distinct_font_sizes": 3
+    },
+    "header_footer": {
+      "sample_pages_probed": 20,
+      "top_headers": [],
+      "top_footers": []
+    },
+    "elapsed_sec": 6.32,
+    "company": "Ritchie Bros"
+  },
+  {
+    "tag": "LANDSCAPE",
+    "file": "cc0fc5888b99758100a7ff024863fc4337b6b3c5.pdf",
+    "total_pages": 285,
+    "sample_pages": [
+      0,
+      14,
+      28,
+      42,
+      57,
+      71,
+      85,
+      99,
+      114,
+      128,
+      142,
+      156,
+      171,
+      185,
+      199,
+      213,
+      228,
+      242,
+      256,
+      270
+    ],
+    "rotation": {
+      "total_pages": 285,
+      "rotation_distribution": {
+        "0": 285
+      },
+      "landscape_pages": 285
+    },
+    "tables": {
+      "sample_pages_probed": 20,
+      "total_tables_found": 15,
+      "shape_stats": {
+        "rows_median": 13,
+        "cols_median": 5,
+        "rows_max": 25,
+        "cols_max": 10
+      },
+      "header_row_examples": [
+        [
+          "Meeting formats in fiscal 2022",
+          "Supervisory\nBoard",
+          "Executive\nCommittee",
+          "Audit\nCommittee",
+          "Personnel\nAfaf irs\nCommittee",
+          "Nomination\nCommittee",
+          "Strategy and\nSustainability\nCo"
+        ],
+        [
+          "Cash flow statement\n€ million",
+          "2022",
+          "2021",
+          "+ / –"
+        ],
+        [
+          "Women in leadership positions\n",
+          "2022 2021",
+          "",
+          "+ / –"
+        ],
+        [
+          "Composition of taxonomy-aligne",
+          "2022"
+        ],
+        [
+          "Row",
+          "Economic activities",
+          "",
+          ""
+        ],
+        [
+          "Other operating expenses\n€ mil",
+          "2022",
+          "2021"
+        ],
+        [
+          "Income from investments\n€ mill",
+          "2022",
+          "2021"
+        ],
+        [
+          "Material investments accounted",
+          "Amprion GmbH,\nDortmund",
+          "",
+          "KELAG-Kärntner Elektrizitäts-A",
+          ""
+        ]
+      ],
+      "cell_none_ratio_avg": 0.164,
+      "multi_header_suspected_tables": 1,
+      "merged_cell_suspected_tables": 4,
+      "sample_page_stats": [
+        {
+          "page": 0,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 14,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 4,
+              "cols": 7
+            }
+          ]
+        },
+        {
+          "page": 28,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 42,
+          "tables_on_page": 0,
+          "shapes": []
+        },
+        {
+          "page": 57,
+          "tables_on_page": 1,
+          "shapes": [
+            {
+              "rows": 13,
+              "cols": 4
+            }
+          ]
+        }
+      ]
+    },
+    "columns": {
+      "sample_pages_probed": 20,
+      "single_col_pages": 7,
+      "dual_col_pages": 11,
+      "complex_pages": 2,
+      "page_reports": [
+        {
+          "page": 0,
+          "layout": "complex",
+          "n_blocks": 3,
+          "left_ratio": 0.0,
+          "right_ratio": 1.0,
+          "middle_ratio": 0.0
+        },
+        {
+          "page": 14,
+          "layout": "dual",
+          "n_blocks": 47,
+          "left_ratio": 0.53,
+          "right_ratio": 0.32,
+          "middle_ratio": 0.15
+        },
+        {
+          "page": 28,
+          "layout": "dual",
+          "n_blocks": 61,
+          "left_ratio": 0.48,
+          "right_ratio": 0.46,
+          "middle_ratio": 0.07
+        },
+        {
+          "page": 42,
+          "layout": "dual",
+          "n_blocks": 52,
+          "left_ratio": 0.44,
+          "right_ratio": 0.5,
+          "middle_ratio": 0.06
+        },
+        {
+          "page": 57,
+          "layout": "dual",
+          "n_blocks": 48,
+          "left_ratio": 0.52,
+          "right_ratio": 0.42,
+          "middle_ratio": 0.06
+        },
+        {
+          "page": 71,
+          "layout": "dual",
+          "n_blocks": 55,
+          "left_ratio": 0.47,
+          "right_ratio": 0.47,
+          "middle_ratio": 0.05
+        },
+        {
+          "page": 85,
+          "layout": "dual",
+          "n_blocks": 62,
+          "left_ratio": 0.48,
+          "right_ratio": 0.48,
+          "middle_ratio": 0.03
+        },
+        {
+          "page": 99,
+          "layout": "dual",
+          "n_blocks": 29,
+          "left_ratio": 0.52,
+          "right_ratio": 0.38,
+          "middle_ratio": 0.1
+        },
+        {
+          "page": 114,
+          "layout": "complex",
+          "n_blocks": 15,
+          "left_ratio": 0.53,
+          "right_ratio": 0.13,
+          "middle_ratio": 0.33
+        },
+        {
+          "page": 128,
+          "layout": "dual",
+          "n_blocks": 60,
+          "left_ratio": 0.47,
+          "right_ratio": 0.5,
+          "middle_ratio": 0.03
+        }
+      ]
+    },
+    "dict_struct": {
+      "sample_pages_probed": 5,
+      "font_size_top5": [
+        [
+          8.5,
+          177
+        ],
+        [
+          7.5,
+          82
+        ],
+        [
+          8.0,
+          52
+        ],
+        [
+          7.0,
+          8
+        ],
+        [
+          6.0,
+          5
+        ]
+      ],
+      "font_name_top5": [
+        [
+          "RWESansPS-Regular",
+          253
+        ],
+        [
+          "RWESansPS-Bold",
+          74
+        ],
+        [
+          "RWESansPS-Medium",
+          3
+        ]
+      ],
+      "bold_line_ratio": 0.233,
+      "distinct_font_sizes": 9
+    },
+    "header_footer": {
+      "sample_pages_probed": 20,
+      "top_headers": [
+        [
+          "RWE Annual Report 2022",
+          2
+        ]
+      ],
+      "top_footers": [
+        [
+          "15",
+          1
+        ],
+        [
+          "29",
+          1
+        ],
+        [
+          "43",
+          1
+        ],
+        [
+          "58",
+          1
+        ],
+        [
+          "72",
+          1
+        ]
+      ]
+    },
+    "elapsed_sec": 3.26,
+    "company": "RWE AG"
+  }
+]

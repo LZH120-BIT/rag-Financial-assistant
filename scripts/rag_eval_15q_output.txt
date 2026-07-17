@@ -1,0 +1,854 @@
+  connections.connect(alias="default", host=h, port=p)
+  return Collection(name=collection_name)
+  return Collection(name=collection_name)
+
+====================================================================================================
+【QA1】 What was Microsoft's total revenue in fiscal year 2022?
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: What was Microsoft's total revenue in fiscal year 2022?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 3 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]Annual Report 2022
+Microsoft
+
+| Annual Report 2022 |
+|---|
+| Microsoft |
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]support new startups, improve educational and health outcomes, and empower human ingenuity.
+We generate revenue by offering a wide range of cloud-based and other services to people and businesses; licensing and 
+supporting an array of software products; designing, manufacturing, and selling devices; and delivering relevant online 
+advertising to a global audience. Our most significant expenses are related to compensating employees; designing, 
+manufacturing, marketing, and selling our products and services; datacenter costs in support of our cloud-based services; 
+and income taxes.
+Highlights from fiscal year 2022 compared with fiscal year 2021 included:
+• 
+Microsoft Cloud (formerly commercial cloud) revenue increased 32% to $91.2 billion.
+• 
+Office Commercial products and cloud services revenue increased 13% driven by Office 365 Commercial 
+growth o
+...[还有 607 字]
+
+====================================================================================================
+【QA2】 What was Weis Markets' net income in 2022?
+    Filter: {'company': 'Weis Markets, Inc.'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: What was Weis Markets' net income in 2022?
+  │  filter: company=Weis Markets, Inc. ticker=None year=None section=None
+  │  Milvus expr: company == "Weis Markets, Inc."
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 3 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Weis Markets, Inc. 2022 10-K
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Weis Markets, Inc. 2022 body p.-1]PART I
+Item 1.   Business:
+Weis Markets, Inc. is a Pennsylvania business founded by Harry and Sigmund Weis in 1912 and incorporated in 1924. 
+The Company is engaged principally in the retail sale of food in Pennsylvania and surrounding states. There was no 
+material change in the nature of the Company’s business during fiscal 2022. The Company’s stock has been traded on 
+the New York Stock Exchange since 1965 under the symbol “WMK.”  The Weis family currently owns approximately 
+65% of the outstanding shares. Jonathan H. Weis serves as Chairman of the Board of Directors, President and Chief 
+Executive Officer.
+The Company’s retail food stores sell groceries, dairy products, frozen foods, meats, seafood, fresh produce, floral, 
+pharmacy services, deli products, prepared foods, bakery products, beer and wine, fuel and general merchandise items, 
+such as h
+...[还有 577 字]
+
+--- chunk 2 ---
+[Weis Markets, Inc. 2022 body p.-1]• 
+Liquidity and Capital Resources - an analysis of cash flows, aggregate contractual obligations, and off-balance 
+sheet arrangements.
+• 
+Critical Accounting Policies and Estimates - a discussion of accounting policies that require critical judgments 
+and estimates.
+Company Overview
+General
+Weis Markets is a conventional supermarket chain that operates 197 retail stores with approximately 23 thousand 
+associates located in Pennsylvania and six surrounding states: Delaware, Maryland, New Jersey, New York, Virginia, 
+and West Virginia. Approximately 97% of Weis Markets associates are paid an hourly wage. Its products sold include 
+groceries, dairy products, frozen foods, meats, seafood, fresh produce, floral, pharmacy services at locations, deli 
+products, prepared foods, bakery products, beer and wine, fuel, and general merchandise items, such as health
+...[还有 595 字]
+
+====================================================================================================
+【QA3】 Microsoft 的研发费用 (R&D expenses) 是多少？
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: Microsoft 的研发费用 (R&D expenses) 是多少？
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 3 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]necessary.
+Research and Development
+Research and development expenses include payroll, employee benefits, stock-based compensation expense, and other 
+headcount-related expenses associated with product development. Research and development expenses also include 
+third-party development and programming costs, localization costs incurred to translate software for international markets, 
+and the amortization of purchased software code and services content. Such costs related to software development are 
+included in research and development expense until the point that technological feasibility is reached, which for our 
+software products, is generally shortly before the products are released to production. Once technological feasibility is 
+reached, such costs are capitalized and amortized to cost of revenue over the estimated lives of the products.
+Sal
+...[还有 597 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]$   24,512  $  20,716   
+18% 
+As a percent of revenue 
+ 
+12%  
+12%  
+0ppt
+Research and development expenses include payroll, employee benefits, stock-based compensation expense, and other 
+headcount-related expenses associated with product development. Research and development expenses also include 
+third-party development and programming costs, localization costs incurred to translate software for international markets, 
+and the amortization of purchased software code and services content.
+Research and development expenses increased $3.8 billion or 18% driven by investments in cloud engineering, Gaming, 
+and LinkedIn.
+Sales and Marketing
+Percentage
+(In millions, except percentages) 
+2022 
+2021
+Change
+  
+ 
+ 
+ 
+ 
+Sales and marketing 
+$   21,825  $  20,117   
+8% 
+As a percent of revenue 
+ 
+11%  
+12%  
+(1)ppt
+Sales and marketing expenses include payroll
+...[还有 615 字]
+
+====================================================================================================
+【QB1】 这家公司的主要业务是什么？
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: 这家公司的主要业务是什么？
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ⚠️ 关键词过滤后仅 0 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]Productivity and Business Processes
+Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, 
+communication, and information services, spanning a variety of devices and platforms. This segment primarily comprises:
+• 
+Office Commercial (Office 365 subscriptions, the Office 365 portion of Microsoft 365 Commercial 
+subscriptions, and Office licensed on-premises), comprising Office, Exchange, SharePoint, Microsoft Teams, 
+Office 365 Security and Compliance, and Microsoft Viva.
+• 
+Office Consumer, including Microsoft 365 Consumer subscriptions, Office licensed on-premises, and other 
+Office services.
+• 
+LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions.
+• 
+Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud
+...[还有 612 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]conditions have permitted, they also continue to adjust hours and/or spend some of workweeks working at home, another 
+site, or remotely. We are focused on building capabilities to support a variety of workstyles where individuals, teams, and 
+our business can deliver success.
+OPERATING SEGMENTS
+We operate our business and report our financial performance using three segments: Productivity and Business 
+Processes, Intelligent Cloud, and More Personal Computing. Our segments provide management with a comprehensive 
+financial view of our key businesses. The segments enable the alignment of strategies and objectives across the 
+development, sales, marketing, and services organizations, and they provide a framework for timely and rational 
+allocation of resources within businesses.
+Additional information on our operating segments and geographic and produ
+...[还有 201 字]
+
+====================================================================================================
+【QB2】 东芝公司 2022 年营收情况
+    Filter: {'company': 'Toshiba Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: 东芝公司 2022 年营收情况
+  │  filter: company=Toshiba Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Toshiba Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 3 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Toshiba Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Toshiba Corporation 2022 body p.-1]For the detailed financial information, please refer to the Financial Report for the Fiscal Year ended March 31, 2022 .
+Financial Highlights (Consolidated)
+Net sales / Ratio of overseas sales
+Net sales (Yen in billions)
+Ratio of overseas sales (%)
+FY2018
+FY2019
+FY2020
+FY2021
+FY2017
+Net sales increased by 282.6 billion yen year on year to 3,337.0 billion yen, 
+reflecting higher sales year on year in all business segments, as both the 
+global and domestic economy has shown signs of recovery with the 
+eased impact of COVID-19.
+Net income (loss) / Earnings (loss) per share
+Net income (loss) (Yen in billions)
+Earnings (loss) per share (Yen)
+
+--- chunk 2 ---
+05
+-114.6
+FY2018
+FY2019
+FY2020
+FY2021
+FY2017
+Net income increased by 80.7 billion yen year on year to 194.7 billion yen, 
+reflecting higher operating income and an increase in equity earnings 
+from Kioxia Holdings Corporation, etc.
+R&D expense / R&D expense to sales ratio
+R&D expense (Yen in billions)
+R&D expense to sales ratio (%)
+
+====================================================================================================
+【QB3】 How does the company recognize revenue?
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: How does the company recognize revenue?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 2 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 audit p.87][section=audit page=87]
+Revenue Recognition – Refer to Note 1 to the financial statements
+Critical Audit Matter Description
+The Company recognizes revenue upon transfer of control of promised products or services to customers in an amount 
+that reflects the consideration the Company expects to receive in exchange for those products or services. The Company 
+offers customers the ability to acquire multiple licenses of software products and services, including cloud-based services, 
+in its customer agreements through its volume licensing programs.
+Significant judgment is exercised by the Company in determining revenue recognition for these customer agreements, 
+and includes the following:
+• 
+Determination of whether products and services are considered distinct performance obligations that should be 
+accounted for separately versus together, such as s
+...[还有 524 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]is recognized prior to invoicing, or unearned revenue when revenue is recognized subsequent to invoicing. For multi-year 
+agreements, we generally invoice customers annually at the beginning of each annual coverage period. We record a 
+receivable related to revenue recognized for multi-year on-premises licenses as we have an unconditional right to invoice 
+and receive payment in the future related to those licenses.
+Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include SA and 
+cloud services. Unearned revenue is generally invoiced annually at the beginning of each contract period for multi-year 
+agreements and recognized ratably over the coverage period. Unearned revenue also includes payments for consulting 
+services to be performed in the future, LinkedIn subscriptions, Office 365 subscriptions, 
+...[还有 607 字]
+
+====================================================================================================
+【QC1】 What are the main risk factors?
+    Filter: {'company': 'Microsoft Corporation', 'section': 'risk'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: What are the main risk factors?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=risk
+  │  Milvus expr: company == "Microsoft Corporation" and section == "risk"
+  │  ✅ Milvus 命中 0 条
+  └─ [search_shared_database] 返回 0 篇
+
+
+>> 命中 0 份文档:
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+====================================================================================================
+【QC2】 Who signed the independent auditor's report?
+    Filter: {'company': 'Microsoft Corporation', 'section': 'audit'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: Who signed the independent auditor's report?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=audit
+  │  Milvus expr: company == "Microsoft Corporation" and section == "audit"
+  │  ✅ Milvus 命中 3 条
+  │  ⚠️ 关键词过滤后仅 0 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 audit p.86][section=audit page=86]
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Stockholders and the Board of Directors of Microsoft Corporation
+Opinion on the Financial Statements
+We have audited the accompanying consolidated balance sheets of Microsoft Corporation and subsidiaries (the 
+―Company‖) as of June 30, 2022 and 2021, the related consolidated statements of income, comprehensive income, cash 
+flows, and stockholders’ equity, for each of the three years in the period ended June 30, 2022, and the related notes 
+(collectively referred to as the ―financial statements‖). In our opinion, the financial statements present fairly, in all material 
+respects, the financial position of the Company as of June 30, 2022 and 2021, and the results of its operations and its 
+cash flows for each of the three years in the period ended June 30, 2022, in
+...[还有 607 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 audit p.90][section=audit page=90]
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Stockholders and the Board of Directors of Microsoft Corporation
+Opinion on Internal Control over Financial Reporting
+We have audited the internal control over financial reporting of Microsoft Corporation and subsidiaries (the ―Company‖) as 
+of June 30, 2022, based on criteria established in Internal Control—Integrated Framework (2013) issued by the 
+Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the Company maintained, 
+in all material respects, effective internal control over financial reporting as of June 30, 2022, based on criteria established 
+in Internal Control—Integrated Framework (2013) issued by COSO.
+We have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United 
+
+...[还有 589 字]
+
+====================================================================================================
+【QC3】 Show me the consolidated balance sheet.
+    Filter: {'company': 'Microsoft Corporation', 'section': 'financials'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: Show me the consolidated balance sheet.
+  │  filter: company=Microsoft Corporation ticker=None year=None section=financials
+  │  Milvus expr: company == "Microsoft Corporation" and section == "financials"
+  │  ✅ Milvus 命中 3 条
+  │  ✅ 关键词过滤后 2 条
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 financials p.54][section=financials page=54]
+NOTES TO FINANCIAL STATEMENTS
+NOTE 1 — ACCOUNTING POLICIES
+Accounting Principles
+Our consolidated financial statements and accompanying notes are prepared in accordance with accounting principles 
+generally accepted in the United States of America (―GAAP‖).
+We have recast certain prior period amounts to conform to the current period presentation. The recast of these prior 
+period amounts had no impact on our consolidated balance sheets, consolidated income statements, or consolidated 
+cash flows statements.
+Principles of Consolidation
+The consolidated financial statements include the accounts of Microsoft Corporation and its subsidiaries. Intercompany 
+transactions and balances have been eliminated.
+Estimates and Assumptions
+Preparing financial statements requires management to make estimates and assumptions that af
+...[还有 633 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 financials p.51][section=financials page=51]
+BALANCE SHEETS  
+  
+(In millions)
+June 30, 
+2022 
+2021
+Assets 
+  
+  
+Current assets: 
+  
+  
+Cash and cash equivalents 
+$ 
+13,931  $ 14,224 
+Short-term investments 
+ 
+  90,826     116,110 
+  
+  
+Total cash, cash equivalents, and short-term investments 
+ 
+104,757   130,334 
+Accounts receivable, net of allowance for doubtful accounts of $633 and $751 
+ 
+44,261   
+38,043 
+Inventories 
+ 
+3,742   
+2,636 
+Other current assets 
+ 
+16,924   
+13,393 
+  
+  
+Total current assets 
+ 
+169,684   184,406 
+Property and equipment, net of accumulated depreciation of $59,660 and $51,351 
+ 
+74,398   
+59,715 
+Operating lease right-of-use assets 
+ 
+13,148   
+11,088 
+Equity investments 
+ 
+6,891   
+5,984 
+Goodwill 
+ 
+67,524   
+49,711 
+Intangible assets, net 
+ 
+11,298   
+7,800 
+Other long-term assets 
+ 
+21,897   
+15,075 
+  
+  
+Total assets 
+$ 
+...[还有 639 字]
+
+====================================================================================================
+【QD1】 Which company reported the highest R&D expenses?
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: Which company reported the highest R&D expenses?
+  │  filter: company=None ticker=None year=None section=None
+  │  Milvus expr: None
+  │  ✅ Milvus 命中 5 条
+  │  ⚠️ 关键词过滤后仅 1 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 5 篇
+
+
+>> 命中 5 份文档:
+   - INMUNE BIO INC. 2022 10-K
+   - Pintec Technology Holdings Limited 2022 20-F
+   - NuCana plc 2022 20-F
+   - AstraZeneca PLC 2022 20-F
+   - CSG Systems International, Inc. 2022 10-K
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[CSG Systems International, Inc. 2022 body p.-1]software costs and/or royalties related to certain software products; (viii) facilities and infrastructure costs related to the statement production and 
+support organizations; and (ix) amortization of acquired intangibles.  The costs related to new solution development (including significant 
+enhancements to existing products and services) are included in R&D expense.
+The cost of revenue for 2022 increased 4.0% to $565.2 million, from $543.2 million for 2021, reflective of the increase in revenue year-over-year, 
+and can be mainly attributed to higher employee-related costs, including the full-year impact of the increased staffing from the 2021 acquired 
+businesses.  Total cost of revenue as a percentage of revenue for 2022 and 2021 was 51.9%, for both periods.
+R&D Expense (Exclusive of Depreciation).  R&D expense for 2022 was $137.9 milli
+...[还有 610 字]
+
+--- chunk 2 ---
+[NuCana plc 2022 body p.-1]26.97% of eligible research and development expenditures incurred on or after April 1, 2023. R&D intensive companies will be those that spend 40% or 
+more of their total expenditure on qualifying R&D in a given period, although detailed guidance and draft legislation on this new rate is yet to be published. 
+Based on the amount of our qualifying R&D expenditure in the fiscal year ended December 31, 2022 and our expectations as to the amount of our 
+qualifying R&D expenditure in the current fiscal year, we believe that we qualified as an R&D intensive company for 2022 and we currently expect to 
+qualify for 2023. Our qualifying expenditures largely comprise employment costs for research staff, consumables and subcontract costs incurred as part of 
+research projects. Certain subcontracted qualifying research expenditures are eligible for a cash rebate of up to 21
+...[还有 495 字]
+
+====================================================================================================
+【QD2】 biotechnology company annual report
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: biotechnology company annual report
+  │  filter: company=None ticker=None year=None section=None
+  │  Milvus expr: None
+  │  ✅ Milvus 命中 5 条
+  │  ✅ 关键词过滤后 4 条
+  └─ [search_shared_database] 返回 2 篇
+
+
+>> 命中 2 份文档:
+   - AstraZeneca PLC 2022 20-F
+   - Beazley plc 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[AstraZeneca PLC 2022 appendix p.227]---
+
+[section=appendix page=227]
+This Annual Report is printed on Revive 
+Silk 100 paper, manufactured from FSC® 
+Recycled certified fibre derived from 100% 
+pre and post-consumer waste and Carbon 
+Balanced with the World Land Trust.
+Design and production
+Superunion, London.  
+www.superunion.com
+Board photography
+Marcus Lyon
+Igor Emmerich
+Printed in the UK by Pureprint using its 
+pureprint® environmental printing
+technology, and vegetable inks were used 
+throughout. Pureprint is a CarbonNeutral®
+SET photography
+Scott Nibauer
+Graham Carlow
+Philip Mynott
+Ossi Piispanen
+company. Both the manufacturing mill 
+and the printer are registered to the
+Environmental Management System 
+ISO14001 and are FSC® chain-of-custody
+certified.
+
+---
+
+[section=appendix page=228]
+Registered office and  
+corporate headquarters
+AstraZeneca PLC
+1 Francis Crick Avenue
+Cambridge 
+...[还有 155 字]
+
+--- chunk 2 ---
+[AstraZeneca PLC 2022 appendix p.223][section=appendix page=223]
+The following abbreviations and expressions have the meanings 
+given below when used in this Annual Report:
+AbbVie – AbbVie Inc.
+Acerta Pharma – Acerta Pharma B.V.
+Actavis – Actavis plc.
+ADC – antibody drug conjugate(s).
+ADRs – American Depositary Receipts.
+ADSs – American Depositary Shares.
+AGM – an Annual General Meeting of the Company.
+AI – artificial intelligence.
+Alexion – Alexion Pharmaceuticals, Inc.
+Allergan – Allergan Plc.
+Almirall – Almirall, S.A.
+Amgen – Amgen Inc.
+Amplimmune – Amplimmune, Inc.
+Annual Report – this Annual Report and Form 20-F Information 2022.
+API – active pharmaceutical ingredient.
+Ardea – Ardea Biosciences, Inc.
+Articles – the Articles of Association of the Company.
+Astellas – Astellas Pharma Inc.
+Astra – Astra AB, being the company with whom the Company 
+merged in 1999.
+AstraZeneca – the Compa
+...[还有 602 字]
+
+====================================================================================================
+【QD3】 banking institution net interest income
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: banking institution net interest income
+  │  filter: company=None ticker=None year=None section=None
+  │  Milvus expr: None
+  │  ✅ Milvus 命中 5 条
+  │  ✅ 关键词过滤后 4 条
+  └─ [search_shared_database] 返回 3 篇
+
+
+>> 命中 3 份文档:
+   - Commerzbank AG 2022 Annual Report
+   - FNCB Bank 2022 Annual Report
+   - Origin Bank 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Commerzbank AG 2022 body p.-1]Net interest income was €6,459m in the period under review,
+compared with €4,849m in the previous year. The significant
+increase of 33.2% was attributable to a considerable rise in
+income 
+from 
+interest-bearing 
+business 
+in 
+both 
+customer
+segments. mBank was largely responsible for the increase in net
+interest income in the Private and Small-Business Customers
+segment. The significant rise in key interest rates in Poland since
+autumn 2021 had a particularly positive impact. As a result, the
+deposit business made a significant contribution to mBank’s net
+interest income, which more than doubled. Rising lending and
+deposit volumes also led to corresponding income growth.
+Interest-bearing business in Germany also recorded a positive
+performance. Firstly, the further increase in total lending in the
+domestic market resulted in income growth, including in
+con
+...[还有 576 字]
+
+--- chunk 2 ---
+[Origin Bank 2022 mda p.161][section=mda page=161]
+We incur interest expense on deposits and other borrowed funds and noninterest expense, such as salaries and 
+employee benefits and occupancy expenses. We analyze our ability to maximize income generated from interest earning 
+assets and expense of our liabilities through our net interest margin. Net interest margin is a ratio calculated as net interest 
+income divided by average interest-earning assets. Net interest income is the difference between interest income on interest-
+earning assets, such as loans, securities and interest-bearing cash, and interest expense on interest-bearing liabilities, such as 
+deposits and borrowings. Net interest spread is the average yield on interest-earning assets minus the average rate on interest-
+bearing liabilities.
+Changes in market interest rates and the interest rates we earn on interest-earning 
+...[还有 542 字]
+
+====================================================================================================
+【QE1】 How did the pandemic affect the company's operations?
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: How did the pandemic affect the company's operations?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ⚠️ 关键词过滤后仅 0 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]Dear shareholders, colleagues, customers, and partners:
+We are living through a period of historic economic, societal, and geopolitical change. The world in 2022 looks nothing like 
+the world in 2019. As I write this, inflation is at a 40-year high, supply chains are stretched, and the war in Ukraine is 
+ongoing. At the same time, we are entering a technological era with the potential to power awesome advancements 
+across every sector of our economy and society. As the world’s largest software company, this places us at a historic 
+intersection of opportunity and responsibility to the world around us.
+Our mission to empower every person and every organization on the planet to achieve more has never been more 
+urgent or more necessary. For all the uncertainty in the world, one thing is clear: People and organizations in every 
+industry are increasingl
+...[还有 566 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]Prior year net income and diluted EPS were positively impacted by the net tax benefit related to the India Supreme Court 
+decision on withholding taxes, which resulted in an increase to net income and diluted EPS of $620 million and $0.08, 
+respectively.
+Gross margin and operating income both included an unfavorable foreign currency impact of 2%.
+SEGMENT RESULTS OF OPERATIONS
+Percentage
+(In millions, except percentages) 
+2022 
+2021
+Change 
+  
+ 
+ 
+ 
+ 
+Revenue 
+  
+  
+  
+ 
+ 
+ 
+ 
+Productivity and Business Processes 
+$ 
+63,364 $ 53,915  
+18% 
+Intelligent Cloud 
+ 
+75,251  
+60,080  
+25% 
+More Personal Computing 
+ 
+59,655  
+54,093  
+10% 
+  
+  
+  
+Total 
+$   198,270 $  168,088  
+18% 
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+Operating Income 
+  
+  
+  
+ 
+ 
+ 
+ 
+Productivity and Business Processes 
+$ 
+29,687 $ 24,351  
+22% 
+Intelligent Cloud 
+ 
+32,721  
+26,126  
+25% 
+More Personal Co
+...[还有 76 字]
+
+====================================================================================================
+【QE2】 What is the company's ESG or sustainability strategy?
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: What is the company's ESG or sustainability strategy?
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ⚠️ 关键词过滤后仅 1 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]Corporate Social Responsibility
+Commitment to Sustainability
+We work to ensure that technology is inclusive, trusted, and increases sustainability. We are accelerating progress toward 
+a more sustainable future by reducing our environmental footprint, advancing research, helping our customers build 
+sustainable solutions, and advocating for policies that benefit the environment. In January 2020, we announced a bold 
+commitment and detailed plan to be carbon negative by 2030, and to remove from the environment by 2050 all the carbon 
+we have emitted since our founding in 1975. This included a commitment to invest $1 billion over four years in new 
+technologies and innovative climate solutions. We built on this pledge by adding commitments to be water positive by 
+2030, zero waste by 2030, and to protect ecosystems by developing a Planetary Computer. W
+...[还有 587 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]On the path to becoming water positive, we invested in 21 water replenishment projects that are expected to generate 
+over 1.3 million cubic meters of volumetric benefits in nine water basins around the world. Progress toward our zero waste 
+commitment included diverting more than 15,200 metric tons of solid waste otherwise headed to landfills and incinerators, 
+as well as launching new Circular Centers to increase reuse and reduce e-waste at our datacenters.
+We contracted to protect over 17,000 acres of land (50% more than the land we use to operate), thus achieving our 
+commitment to protect more land than we use by 2025.
+And with Microsoft Cloud for Sustainability, we’re expanding our work to help customers meet their ambitious 
+sustainability goals by enabling them to better collect, track, and analyze the metrics of their sustainability strategy
+...[还有 617 字]
+
+====================================================================================================
+【QE3】 Describe any cybersecurity incidents disclosed.
+    Filter: {'company': 'Microsoft Corporation'}
+====================================================================================================
+
+  ┌─ [search_shared_database] 共享库检索
+  │  question: Describe any cybersecurity incidents disclosed.
+  │  filter: company=Microsoft Corporation ticker=None year=None section=None
+  │  Milvus expr: company == "Microsoft Corporation"
+  │  ✅ Milvus 命中 3 条
+  │  ⚠️ 关键词过滤后仅 0 条 (<2)，放弃过滤，用向量召回原始结果
+  └─ [search_shared_database] 返回 1 篇
+
+
+>> 命中 1 份文档:
+   - Microsoft Corporation 2022 Annual Report
+
+>> 命中 chunks（前 2 条，每条截 900 字）:
+
+--- chunk 1 ---
+[Microsoft Corporation 2022 body p.-1]privacy laws that require companies, including ours, to be accountable and responsible in their collection and use of 
+personal data. That’s why we supported the new Trans-Atlantic Data Privacy Framework and committed to meet or 
+exceed all the requirements it outlines. And through the Microsoft privacy dashboard, millions of people each year can 
+make meaningful choices about how their data is used.
+Security and digital safety are foundational to trust in today’s complex threat landscape. We analyze 43 trillion security 
+signals daily and use the insights to inform increased protections. This year, we blocked 34.7 billion identity threats and 
+37 billion email threats. Over the past four years, we’ve sent over 67,000 nation-state-related threat notifications to 
+customers to help them protect themselves from digital threats.
+This comprehensive capab
+...[还有 420 字]
+
+--- chunk 2 ---
+[Microsoft Corporation 2022 body p.-1]governance-related policies.
+• 
+Other news and announcements that we may post from time to time that investors might find useful or 
+interesting.
+• 
+Opportunities to sign up for email alerts to have information pushed in real time.
+We publish a variety of reports and resources related to our Corporate Social Responsibility programs and progress on 
+our Reports Hub website, www.microsoft.com/corporate-responsibility/reports-hub, including reports on sustainability, 
+responsible sourcing, accessibility, digital trust, and public policy engagement.
+The information found on these websites is not part of, or incorporated by reference into, this or any other report we file 
+with, or furnish to, the SEC. In addition to these channels, we use social media to communicate to the public. It is possible 
+that the information we post on social media could be deem
+...[还有 211 字]

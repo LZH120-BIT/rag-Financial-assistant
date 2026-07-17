@@ -1,0 +1,20 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    // 配置路径别名提示
+    "baseUrl": "./", //指定ts查找模块的目录
+    "paths": {
+      "@/*": ["src/*"] //表示"@/"代表'src/'目录
+    }
+  },
+
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "auto-imports.d.ts"]
+}
